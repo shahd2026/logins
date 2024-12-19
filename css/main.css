@@ -1,0 +1,42 @@
+body{
+    background-color: #23343E !important ;
+}
+.item{
+    background-color: #24353F !important;
+    width: 60%!important ;
+    color: #17A2B8  !important;
+
+    /* height: 0% !important; */
+    box-shadow: 0px 8px 8px 8px rgba(0,0,0,0.2) !important;
+}
+.item button{
+    border-color: #17A2B8  !important;
+    color: #17A2B8  !important;
+
+}
+.item button:hover{
+    background-color: #17A2B8;
+    color: #ffff  !important;
+    transition: background-color 0.3s ease;
+
+}
+.item input{
+    background-color: transparent !important;
+    border-color: #17A2B8 !important;
+    color: aliceblue !important;
+}
+.item input::placeholder {
+    color: white !important;
+}
+.item input:focus {
+    border-color: #17A2B8 !important; 
+    box-shadow: 0 0 10px rgba(23, 162, 184, 0.5) !important; 
+    outline: none;
+}
+p.bg-danger-subtle{
+    color: #23343E;
+
+}
+h1.home{
+    color: #17A2B8;
+}

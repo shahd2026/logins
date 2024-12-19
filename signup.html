@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign up</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.min.css'>
+
+ 
+</head>
+<body>
+<div  class="item m-auto my-5 py-5">
+  <h1 class="text-center mb-5">Smart Login System</h1>
+    <form  id="loginForm">
+        <div class=" input mb-3 text-center px-5 p-1">
+         
+            <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter your name">
+            <span class="text-danger d-none" id="nameError">Name must be 3-8 characters.</span>
+
+          </div>
+        <div class=" input mb-3 text-center px-5 p-1">
+         
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+          <span class="text-danger d-none" id="emailError">Invalid email format.</span>
+
+        </div>
+        <div class=" input mb-3 text-center px-5 p-1">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+          <span class="text-danger d-none" id="passwordError">Password must be 8-20 characters long.</span>
+          
+
+        </div>
+    
+       <div class="mb-3 text-center px-5 p-1">
+        <button id="login" type="submit" class="btn text-center form-control ">Sign up</button>
+       </div>
+       <p class="text-center fw-medium px-5 text-white mb-0">
+        Already have an account? 
+        <span class="link-underline-light">
+          <a href="./index.htm" target="_blank">Log in</a>
+        </span>
+      </p>
+
+        
+      </form>
+</div>
+
+
+
+
+
+    <script src='signup.js'></script>
+    
+</body>
+</html>

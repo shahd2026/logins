@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Log in</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/all.min.css'>
+
+ 
+</head>
+<body>
+<div  class="item m-auto my-5 py-5">
+  <h1 class="text-center mb-5">Smart Login System</h1>
+    <form  id="loginForm">
+        
+        <div class=" input mb-3 text-center px-5 p-1">
+         
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+          <span class="text-danger d-none" id="emailError">Invalid email format.</span>
+
+        </div>
+        <div class=" input mb-3 text-center px-5 p-1">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+          <span class="text-danger d-none" id="passwordError">Password must be 8-20 characters long includin special chars.</span>
+          <p class="text-center d-none fw-medium px-5 text-white mb-0" id="forgot">
+            forgot your password? 
+            <span class="link-underline-light">
+              <a href="./forgot.html" target="_blank">tab here</a>
+            </span>
+          </p>
+
+        </div>
+    
+       <div class="mb-3 text-center px-5 p-1">
+        <button  type="submit" id="login" class="btn text-center form-control ">log in</button>
+       </div>
+       <p class="text-center fw-medium px-5 text-white mb-0">
+        Dont have an account? 
+        <span class="link-underline-light">
+          <a href="./signup.html" target="_blank">Sign up</a>
+        </span>
+      </p>
+
+        
+      </form>
+</div>
+
+
+
+
+
+    <script src='index.js'></script>
+    
+</body>
+</html>
